@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+body {
+    background: #000;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 89%;
+    padding-top: 10vh;
+    margin-left: 21vw;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 6vw;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 2vw;
+    text-transform: uppercase;
+    transition: 0.3;
+}
+
+nav ui li a:hover{
+    border-bottom: 2px solid #9500ff;
+}
+
+.text-box {
+    width: 90%;
+    color: #00ff00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.hero-btn {
+    padding: 12px 35px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 2rem;
+    margin-left: 30px;
+    border: 2px solid #9500ff;
+    color: #ff00ff;
+    font-size: 18px;
+    font-weight: 600;
+    background: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    box-shadow: 0 0 25px #9500ff;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+}
+.program {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color:#ff4500;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.program p{
+    font-size: 18px;
+}
+
+.program-col p {
+    color: #1e1e1e;
+    font-size: 20px;
+    font-weight: 300px;
+    line-height: 22px;
+    padding: 10px;
+}
+h3 {
+    color: #1e1e1e;
+    text-align: center;
+    font-weight:600;
+    margin: 10px 0;
+
+}
+
+.row {
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.program-col {
+    flex-basis: 31%;
+    background: #00ffff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;;
+}
+.program-col:hover {
+    box-shadow: 0 0 30px 0px rgba(255,20,1447,1.0 );
+}
+
+
+/*Mystic shadow palette
+#4b0082, #8a2be2, #00ffff, #ff1493, #2f4f4f
+Glitch effect palette
+#ff00ff, #00ffff, #ff4500, #ffd700, #1e1e1e
+Neon night palette
+#00ff00, #ff00ff, #00ffff, #ff4500, #1e1e1e

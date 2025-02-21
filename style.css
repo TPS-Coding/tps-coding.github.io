@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.hero{
+    min-height: 100vh;
+    background: url('game_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 89%;
+    padding-top: 15vh;
+    margin-left: 21vw;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 6vw;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 2vw;
+    text-transform: uppercase;
+    transition: 0.3;
+}
+
+nav ui li a:hover{
+    border-bottom: 2px solid #9500ff;
+}
+
+nav button {
+    padding: 10px 30px;
+    border: none;
+    background: #9500ff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+nav button:hover {
+    scale: 0.9;
+    box-shadow: 0 0 20 px #9500ff;
+
+}
+.content {
+    position: absolute;
+    top: 35%;
+    left: 21vw;
+}
+
+h2 {
+    font-size: 45px;
+    color: #fff;
+}
+
+p {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.content button {
+    padding: 12px 35px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 2rem;
+    background-color: #9500ff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.content button:hover {
+    scale: 1.1;
+}
+
+.content .know_more {
+    margin-left: 30px;
+    border: 2px solid #9500ff;
+    background: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #fff;
+}
+
+.content .know_more:hover {
+    box-shadow: 0 0 25px #9500ff;
+}
+.content a{
+    color: #fff;
+}
+
+.card {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.card img {
+    width: 130px;
+    height: 190px;
+    border: 2px solid #9500ff;
+    border-radius: 10px;
+}
+
+.card img:hover {
+    transform: rotate(20deg);
+    transition: 0.4s;
+}
