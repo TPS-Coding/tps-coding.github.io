@@ -136,6 +136,12 @@ h3 {
     box-shadow: 0 0 30px 0px rgba(255,20,1447,1.0 );
 }
 
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
 
 /*Mystic shadow palette
 #4b0082, #8a2be2, #00ffff, #ff1493, #2f4f4f
