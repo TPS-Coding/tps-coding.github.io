@@ -130,7 +130,13 @@ p {
 }
 
 @media(max-width:700px){
-    .content{
+    h2{
+        font-size: 20px;
+    }
+    .content .card{
         flex-direction: column;
+    }
+    body{
+        background-color: #080213;
     }
 }
