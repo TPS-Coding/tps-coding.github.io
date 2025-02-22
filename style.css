@@ -128,3 +128,9 @@ p {
     transform: rotate(20deg);
     transition: 0.4s;
 }
+
+@media(max-width:700px){
+    .content{
+        flex-direction: column;
+    }
+}
