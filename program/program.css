@@ -1,16 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: sans-serif;
+    font-family: "sans-serif"
 }
 body {
     background: #000;
 }
 .header {
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
     position: relative;
 }
@@ -38,6 +39,7 @@ nav ul li a {
     font-size: 2vw;
     text-transform: uppercase;
     transition: 0.3;
+    font-family: "Press Start 2P", cursive; 
 }
 
 nav ui li a:hover{
@@ -48,7 +50,7 @@ nav ui li a:hover{
     width: 90%;
     color: #00ff00;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
