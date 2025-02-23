@@ -50,7 +50,7 @@ nav ui li a:hover{
     width: 90%;
     color: #00ff00;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -92,7 +92,7 @@ nav ui li a:hover{
 .program {
     width: 80%;
     margin: auto;
-    text-align: center;
+    text-align: left;
     padding-top: 100px;
     color:#ff4500;
 }
@@ -101,7 +101,19 @@ h1 {
     font-weight: 600;
 }
 .program p{
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.sixth {
+    color:#fff;
+    text-align: left;
+}
+.seventh {
+    color:#ff00ff;
+    text-align: left;
+}
+.eighth {
+    color: #000;
 }
 
 .program-col p {
